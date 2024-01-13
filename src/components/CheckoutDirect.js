@@ -5,7 +5,7 @@ import Navbar, { HomeHeaderMobile } from './Navbar'
 import Footer from './Footer';
 import { formatIndianCurrencyFloat } from '../Utilities/formatIndianCurrency';
 import OrderSuccess from './OrderSuccess'
-import clearCartAPI from '../APIs/clearCartAPI';
+//import clearCartAPI from '../APIs/clearCartAPI';
 import { toast } from 'react-hot-toast';
 import backButtonMobile from '../assets/icons/backButtonMobile.svg'
 

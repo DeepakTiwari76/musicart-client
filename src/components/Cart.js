@@ -1,9 +1,9 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, {  useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { HomePageHeader } from "./Product";
 import style from "./Cart.module.css";
 import myCart from "../assets/icons/myCart.svg";
-import LogContext from '../Utilities/LogContext.js'
+//import LogContext from '../Utilities/LogContext.js'
 import getCart from "../APIs/getCart.js";
 import formatIndianCurrency from "../Utilities/formatIndianCurrency.js";
 import updateCartQuantityAPI from "../APIs/updateCartQuantityAPI.js";

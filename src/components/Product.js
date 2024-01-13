@@ -240,6 +240,7 @@ console.log(loading)
 
 const Product = () => {
     const [isUserLoggedin] = useContext(LogContext);
+    console.log(isUserLoggedin)
     return (
         <>
 

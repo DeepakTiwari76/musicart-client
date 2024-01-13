@@ -25,7 +25,7 @@ const Nodata = () => {
 
 const Cart = () => {
   const navigate =useNavigate();
-  const [isUserLoggedin] = useContext(LogContext);
+//const [isUserLoggedin] = useContext(LogContext);
   const [cartData, setCartData] = useState([]);
   const [isCheckoutVisible, setCheckoutVisible] = useState(false);
   const [isLoading, setIsLoading] = useState(true)

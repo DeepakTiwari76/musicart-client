@@ -20,7 +20,7 @@ const CheckoutDirect = ({ cartData, backPage }) => {
 
       
 
-    const calculateTotalPrice = (cart) => {
+   /* const calculateTotalPrice = (cart) => {
         // Use the reduce function to calculate the total price
         const totalPrice = cart.reduce((total, cartItem) => {
             // Extract product details and quantity from the cart item
@@ -46,7 +46,7 @@ const CheckoutDirect = ({ cartData, backPage }) => {
         } catch (error) {
             console.error('Error clearing cart:', error);
         }
-    };
+    };*/
 
     const handlePlaceOrder = () => {
         toast.success("Order Successfully placed")

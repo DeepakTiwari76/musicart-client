@@ -11,7 +11,7 @@ const Register = () => {
   const navigate = useNavigate();
 
   const [isUserLoggedin, setIsUserLoggedin] = useContext(LogContext);
-
+console.log(isUserLoggedin)
   // State variables to handle user input
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');

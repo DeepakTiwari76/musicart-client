@@ -74,7 +74,7 @@ const ProductDetails = () => {
     const [imageIndex, setImageIndex] = useState(0);
     const [isCheckoutVisible, setCheckoutVisible] = useState(false);
     const { id } = useParams();
-
+console.log(loading)
     useEffect(() => {
         const fetchData = async () => {
             try {
